@@ -1,7 +1,8 @@
 package nl.hu.pafr.opdr_2_2.dieren;
 
-public class Eend extends Dier {
+public class Eend extends Dier implements Speakable {
 	private boolean kanVliegen;
+	public static int wings = 2;
 	
 	public Eend() {
 		super(2);

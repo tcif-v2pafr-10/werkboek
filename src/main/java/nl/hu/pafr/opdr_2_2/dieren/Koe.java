@@ -1,9 +1,11 @@
 package nl.hu.pafr.opdr_2_2.dieren;
 
-public class Koe extends Dier {
+public class Koe extends Dier implements Speakable {
 	private double litersMelk;
 	
-	public Koe() { super(4); }
+	public Koe() {
+		super(4);
+	}
 	
 	public void setLitersMelk(double lt) {
 		litersMelk = lt;
@@ -14,7 +16,6 @@ public class Koe extends Dier {
 	}
 	
 	public String toString() {
-		return "Ik ben een koe met " + litersMelk + " liters melk. "
- + super.toString();
+		return "Ik ben een koe met " + litersMelk + " liters melk. " + super.toString();
 	}
 }

@@ -1,12 +1,12 @@
-package nl.hu.pafr.opdr_2_3.editor;
+package nl.hu.pafr.opdr_2_2.drawing;
 
-class GraphicEditor {
+public class GraphicEditor {
 	public static void main(String argv[]) {
 		Circle c1 = new Circle();
 		drawShape(c1);
 	}
 
-	public void drawShape(Circle c) {
+	public static void drawShape(Circle c) {
 		c.draw();
 	}
 }

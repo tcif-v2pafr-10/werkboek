@@ -2,6 +2,7 @@ package nl.hu.pafr.opdr_4_2.sort;
 
 public class QuickSort implements Sort {
 	public void sort(double[] u) {
+		System.out.println("QuickSort");
 		sort(u, 0, u.length - 1);
 	}
 
